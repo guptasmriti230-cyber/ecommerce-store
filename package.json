@@ -1,0 +1,29 @@
+{
+  "name": "ecommerce-store",
+  "version": "1.0.0",
+  "description": "A beginner-friendly e-commerce web application built with HTML, CSS, JavaScript, Node.js, and Express.js",
+  "main": "backend/server.js",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "nodemon backend/server.js"
+  },
+  "keywords": [
+    "ecommerce",
+    "shopping",
+    "store",
+    "nodejs",
+    "express",
+    "beginner",
+    "full-stack"
+  ],
+  "author": "Smriti Gupta",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
